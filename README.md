@@ -1,8 +1,4 @@
-# 404 error page
+# ERROR Page
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/uiswarup/pen/dyoyLOp](https://codepen.io/uiswarup/pen/dyoyLOp).
+A Pen created on CodePen.io. Original URL: [https://codepen.io/leonardo-asher-grace/pen/vYpoGNW](https://codepen.io/leonardo-asher-grace/pen/vYpoGNW).
 
-404 error SVG animation page  
-anime.js
-
-error 404
