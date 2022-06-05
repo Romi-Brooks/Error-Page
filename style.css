@@ -1,21 +1,75 @@
-.textFont {
+.textNameFont {
   font-family: Arial, Helvetica, sans-serif;
 }
-.textCenter {
-  text-align: center;
+
+.Title {
+   margin-top: 9cm;
+   position: flex;
+   font-size: 18px;
+   text-weight: 55;
 }
 
-.textBig {
-  font-size: 35px;
+.content {
+  min-height: calc(100vh - 70px);
 }
 
-.textMiddle {
-  font-size: 15px;
+.color {
+   color:  	#FFFFF0;
 }
 
-.textTop {
-  font-size: 10px;
+.link {
+   text-decoration: none;
+   font-weight: 400;
+   color:  	#FFFFF0;
+   opacity: 0.3;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
-body {         
-  background-color: #B0E0E6;
+
+.center {
+    text-align: center;
+}
+.footer {
+  font-size: 9px;
+  height: 50px;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(rgba(0, 0, 0, 0.2), #000000), url(https://s1.328888.xyz/2022/06/05/Wn73A.jpg) 50%/cover no-repeat #000;
+    background-blend-mode: luminosity;
+    color: lime;
+    font: 1.5em/ 2 vt323, monospace;
+}
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 38ch;
+    transform: translate(-50%, -50%);
+}
+.message:before,
+.message:after {
+    display: block;
+    overflow: hidden;
+    width: 0;
+    white-space: nowrap;
+    animation: a1 8.6s steps(63) forwards;
+    content: "Error...,Something went wrong and we're working hard to fix it.";
+}
+.message:after {
+    animation: a2 6.4s steps(53) 8.6s forwards;
+    content: "It's done in seconds and you can enjoy a cup of tea.";
+}
+@keyframes a1 {
+    to {
+        width: 63ch;
+    }
+}
+@keyframes a2 {
+    to {
+        width: 53ch;
+    }
 }
