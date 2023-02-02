@@ -1,3 +1,12 @@
+# 已经由 Typed.js改写,css部分保留并且注释.  
+# Fri-Feb-2023 00:32  
+
+
+
+
+
+
+===============================================================
 # ERROR Page
  **PenCode Original URL: [ErrorPage](https://codepen.io/leonardo-asher-grace/pen/vYpoGNW)**
 
