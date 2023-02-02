@@ -4,23 +4,33 @@
     <title>ERROR</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   </head>
   
 <body class="textNameFont">
-    <script src="https://wow.techbrood.com/libs/jquery/jquery-1.11.1.min.js"></script>
     <div class="Title center">
       <h1>Ops! :(</h1>
       </div>
-    <div class="message">
-    </div>
-    <div class="content"></div>
-    <div class="footer center">
-      <p class="color">
-        <a class="link" href="https://codepen.io/leonardo-asher-grace/pen/vYpoGNW">ErrorPage</a>
+<div class="message">
+    <span class="Message"></span>
+    <script>
+        var typed = new Typed(".Message", {
+            strings: [
+                "Error...,Something went wrong and we're working hard to fix it.<br>It's done in seconds and you can enjoy a cup of tea.",
+                "Error...,Something went wrong and we're working hard to fix it.<br>It's done in seconds and you can enjoy a cup of cofe.",
+                "Error...,Something went wrong and we're working hard to fix it.<br>It's done in seconds and you can enjoy a cup of energy drink.",
+                "Error...,Something went wrong and we're working hard to fix it.<br>It's done in seconds and you can enjoy a beer.",
+                "Error...,Something went wrong and we're working hard to fix it.<br>It's done in seconds and you can enjoy whatever you can think of.",
+            ],
+            typeSpeed: 25,//打字的速度
+            backSpeed: 50,
+        });
+    </script>
+</div>
+    <div id="footerText">
+        <a class="link" href="https://github.com/Romi-Brooks/Error-Page">ErrorPage</a>
       by
         <a class="link" href="https://github.com/Romi-Brooks/Romi-Brooks">Romi Brooks</a>
-      </p>
     </div>
     </body>
-</body>
 </html>
